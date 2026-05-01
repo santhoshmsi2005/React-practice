@@ -7,6 +7,7 @@ import Input from "./pages/Input"
 import Todo from "./pages/Todo"
 import StatePratice from "./pages/StatePratice"
 import OwnTodo from "./pages/OwnTodo"
+import UseAPI from "./pages/UseAPI"
 
 const AppLayout = () => {
     return <div>
@@ -15,7 +16,8 @@ const AppLayout = () => {
         {/* <Input /> */}
         {/* <Todo /> */}
         {/* <StatePratice /> */}
-        <OwnTodo />
+        {/* <OwnTodo /> */}
+        <UseAPI />
     </div>
 }
 
